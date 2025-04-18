@@ -1,6 +1,6 @@
-import { StyleSheet, Button, View, Text, TextInput } from "react-native";
+import { StyleSheet, Button, View, Text } from "react-native";
 
-import MoproReactNativePackage from "mopro-react-native-package";
+import ZKEmailReactNativePackage from "zkemail-react-native-package";
 import * as FileSystem from "expo-file-system";
 import { useState } from "react";
 import { input } from "./Input";
@@ -36,7 +36,7 @@ export default function HomeScreen() {
         const circuitInputs = input;
         try {
             const startTime = new Date();
-            const res = MoproReactNativePackage.proveZkemail(
+            const res = ZKEmailReactNativePackage.proveZkemail(
                 srsPath.replace("file://", ""),
                 circuitInputs
             );
@@ -51,7 +51,7 @@ export default function HomeScreen() {
     }
     async function verifyProof(): Promise<void> {
         const srsPath = await downloadSrs();
-        const res = MoproReactNativePackage.verifyZkemail(
+        const res = ZKEmailReactNativePackage.verifyZkemail(
             srsPath.replace("file://", ""),
             proof
         );

@@ -1,7 +1,7 @@
 {
-  "name": "mopro-react-native-package",
+  "name": "zkemail-react-native-package",
   "version": "0.1.0",
-  "description": "My new module",
+  "description": "ZKEmail React Native Package",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -18,16 +18,16 @@
   "keywords": [
     "react-native",
     "expo",
-    "mopro-react-native-package",
-    "MoproReactNativePackage"
+    "zkemail-react-native-package",
+    "ZKEmailReactNativePackage"
   ],
-  "repository": "https://github.com/zkmopro/mopro-react-native-package",
+  "repository": "https://github.com/zkmopro/zkemail-react-native-package",
   "bugs": {
-    "url": "https://github.com/zkmopro/mopro-react-native-package/issues"
+    "url": "https://github.com/zkmopro/zkemail-react-native-package/issues"
   },
   "author": "Ya-wen, Jeng <vivi432@yahoo.com.tw> (zkmopro)",
   "license": "MIT",
-  "homepage": "https://github.com/zkmopro/mopro-react-native-package#readme",
+  "homepage": "https://github.com/zkmopro/zkemail-react-native-package#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/react": "~18.3.12",
