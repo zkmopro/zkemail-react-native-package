@@ -14,7 +14,7 @@ export default function HomeScreen() {
     async function downloadSrs(): Promise<string> {
         const newSrsName = "srs.local";
         const srsUrl =
-            "https://github.com/vivianjeng/mopro-zkemail-nr/raw/refs/heads/main/public/srs.local";
+            "https://github.com/zkmopro/mopro-zkemail-nr/raw/refs/heads/main/public/srs.local";
         const newSrsPath = `${FileSystem.documentDirectory}${newSrsName}`;
         const srsInfo = await FileSystem.getInfoAsync(newSrsPath);
         if (!srsInfo.exists) {
